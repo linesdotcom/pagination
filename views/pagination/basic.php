@@ -1,3 +1,10 @@
+<style>
+p.pagination{width:100%;text-align:center;}
+.pagination{border-top:2px solid #B1B1B1;padding-top:10px;}
+.pagination a,.pagination strong{padding:5px 3px;}
+.pagination a:hover{color:#C70000;}
+.pagination a[rel=prev],.pagination a[rel=first],.pagination a[rel=next],.pagination a[rel=last]{font-weight:700;padding:0 5px;}
+</style>
 <p class="pagination">
 
 	<?php if ($first_page !== FALSE): ?>
